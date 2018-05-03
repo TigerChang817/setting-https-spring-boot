@@ -3,14 +3,14 @@
 after buying ssl certificate from GoDaddy:
 
 
-***step1.  openssl genrsa -des3 -out mydomain.key 2048***
+***step1.  `openssl genrsa -des3 -out mydomain.key 2048`***
 
 input some value
 create private.key
 
 
 
-***step2.  openssl req -new -key mydomain.key -out server.csr***
+***step2.  `openssl req -new -key mydomain.key -out server.csr`***
 
 create server.csr
 
@@ -20,7 +20,7 @@ create server.csr
 
 
 
-***step4.  get 1 file (not gd_bundle-g2-g1.crt) openssl pkcs12 -export -clcerts -in xxxxxxx.crt -inkey mydomain.key -out server.p12***
+***step4.  get 1 file (not gd_bundle-g2-g1.crt) `openssl pkcs12 -export -clcerts -in xxxxxxx.crt -inkey mydomain.key -out server.p12`***
 
  to get server.p12
 
@@ -30,7 +30,7 @@ create server.csr
 
 ***step6.  setting application.properties***
 
- server.port=443
+` server.port=443
  
  server.ssl.key-store:classpath:server.p12
  
@@ -38,7 +38,7 @@ create server.csr
  
  server.ssl.keyStoreType:PKCS12
  
- server.ssl.keyAlias:1
+ server.ssl.keyAlias:1`
  
 
 ***step7.  start up your web application & success!!!!!!!!!!!!!!!!!***
