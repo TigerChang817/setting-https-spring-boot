@@ -32,7 +32,7 @@ create server.csr
 
 ` server.port=443`
  
- `erver.ssl.key-store:classpath:server.p12`
+ `server.ssl.key-store:classpath:server.p12`
  
  `server.ssl.key-store-password:password`
  
