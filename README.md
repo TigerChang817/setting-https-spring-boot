@@ -1,4 +1,4 @@
-# setting-https-spring-boot godaddy #windows server #aws
+# setting https spring boot godaddy #windows server #aws
 
 after buying ssl certificate from GoDaddy:
 
