@@ -3,7 +3,7 @@
 after buying ssl certificate from GoDaddy:
 
 
-*step1.  openssl genrsa -des3 -out mydomain.key 2048*
+**step1.  openssl genrsa -des3 -out mydomain.key 2048**
 
 input some value
 create private.key
