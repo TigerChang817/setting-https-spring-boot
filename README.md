@@ -29,10 +29,11 @@ create server.csr
 
 
 ***step6.  setting application.properties***
+
  server.port=443
  server.ssl.key-store:classpath:server.p12
  server.ssl.key-store-password:password
  server.ssl.keyStoreType:PKCS12
  server.ssl.keyAlias:1
 
-***step7.  start up your web application & success!!!!!!!!!!!!!!!!! ***
+***step7.  start up your web application & success!!!!!!!!!!!!!!!!!
