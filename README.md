@@ -2,9 +2,11 @@
 
 after buying ssl certificate from GoDaddy:
 
-step1.  openssl genrsa -des3 -out mydomain.key 2048
-_input some value
-_create private.key
+step1.  openssl genrsa -des3 -out mydomain.key 2048  \n
+input some value
+create private.key
+
+
 
 step2.  openssl req -new -key mydomain.key -out server.csr
 _create server.csr
